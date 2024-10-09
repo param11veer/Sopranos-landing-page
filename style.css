@@ -1,0 +1,90 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("/JS-extraa/1-GSAP/fonts/Gilroy-SemiBold.ttf");
+    font-family: myLightFont;
+    src: url("/JS-extraa/3-GSAP-Project/fonts/Gilroy-Thin.ttf");
+  }
+  
+  div {
+    font-family: myLightFont;
+    color: white;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Gilroy'; */
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 30px;
+}
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#nav h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#main h1{
+    font-size: 150px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 120px;
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    z-index: 10;
+}
+
+#main h1:nth-child(2){
+    margin-top: 180px;
+}
+
+#main h1:nth-child(3){
+    text-align: center;
+}
+
+#main h1:nth-child(4){
+    text-align: center;
+}
+
+img{
+    height: 500px;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+
+#img1{
+    rotate: 5deg;
+}
+
+#img2{
+    rotate: 15deg;
+}
+
+#img3{
+    rotate: -20deg;
+}
