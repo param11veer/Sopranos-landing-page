@@ -1,8 +1,8 @@
 @font-face {
     font-family: myFirstFont;
-    src: url("/JS-extraa/1-GSAP/fonts/Gilroy-SemiBold.ttf");
+    src: url("./fonts/Gilroy-SemiBold.ttf");
     font-family: myLightFont;
-    src: url("/JS-extraa/3-GSAP-Project/fonts/Gilroy-Thin.ttf");
+    src: url("./fonts/Gilroy-Thin.ttf");
   }
   
   div {
