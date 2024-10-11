@@ -4,29 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GSAP Project</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css" />
+    <title>GSAP Project</title>
 </head>
 
 <body>
     <div id="main">
-        <div id="nav">
-            <h3>Bada Bing</h3>
-            <div id="nav-part2">
-                <h3>Instagram</h3>
-                <h3>Gallery</h3>
-                <h3>Contact</h3>
+        <div data-scroll data-scroll-speed="-5" id="main-1">
+            <div id="nav">
+                <h3>Bada Bing</h3>
+                <div id="nav-part2">
+                    <h3>Instagram</h3>
+                    <h3>Gallery</h3>
+                    <h3>Contact</h3>
+                </div>
+            </div>
+            <h1>Hello I'm</h1>
+            <h1>Tony</h1>
+            <h1>Soprano</h1>
+            <img id="img3" src="./img/2664442.jpg" alt="">
+            <img id="img2" src="./img/2664479.jpg" alt="">
+            <img id="img" src="./img/1391223.jpg" alt="">
+        </div>
+        <div data-scroll data-scroll-speed="-0" id="main-2">
+            <div id="page2">
+                <h1>SOPRANOS</h1>
             </div>
         </div>
-        <h1>Hello I'm</h1>
-        <h1>Tony</h1>
-        <h1>Soprano</h1>
-        <img id="img3" src="./img/2664442.jpg" alt="">
-        <img id="img2" src="./img/2664479.jpg" alt="">
-        <img id="img" src="./img/1391223.jpg" alt="">
+        <div data-scroll data-scroll-speed="-5" id="main-3">
+            <h1>you better pay the money</h1>
+            <h1>back,</h1>
+            <h1>or we pay you a visit.</h1>
+
+            <img id="img4" src="./img/wp9161421-the-sopranos-4k-wallpapers.jpg" alt="">
+        </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
         integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="app.js"></script>
 </body>
